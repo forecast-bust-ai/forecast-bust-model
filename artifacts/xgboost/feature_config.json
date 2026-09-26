@@ -1,0 +1,17 @@
+{
+  "feature_list": [
+    "lead_time_hours",
+    "latitude",
+    "longitude",
+    "forecast_precipitation",
+    "fcst_precip_sq",
+    "fcst_precip_sqrt",
+    "fcst_precip_is_zero",
+    "fcst_precip_is_heavy",
+    "spatial_distance_to_center",
+    "lead_time_precip_interaction"
+  ],
+  "target_variable": "bust",
+  "leakage_prevention": "Strict forecast-time features only",
+  "scale_pos_weight_applied": 9.133307271305707
+}

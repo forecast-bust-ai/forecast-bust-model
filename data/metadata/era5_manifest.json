@@ -1,0 +1,10 @@
+[
+  {
+    "dataset": "ERA5",
+    "date": "2024-06-01",
+    "variable": "total_precipitation",
+    "status": "SKIPPED_MISSING_CREDENTIALS",
+    "message": "MISSING CDS API CREDENTIALS.\nTo download ERA5 verification data from ECMWF Copernicus:\n  1. Register for an account at https://cds.climate.copernicus.eu\n  2. Copy your API key / Personal Access Token from your CDS profile page.\n  3. Set environment variable: export CDSAPI_KEY='your_api_key'\n     or add `CDSAPI_KEY=your_api_key` to project .env file\n     or create ~/.cdsapirc file containing:\n        url: https://cds.climate.copernicus.eu/api\n        key: your_api_key\n",
+    "timestamp": "2026-09-26T06:28:31.358326+00:00"
+  }
+]

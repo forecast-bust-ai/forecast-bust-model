@@ -1,0 +1,47 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+
+# Heavy Weather Data Files (CRITICAL: Do not commit large NetCDF / GRIB files)
+*.nc
+*.grib
+*.grib2
+*.grb
+*.zarr
+*.h5
+*.hdf5
+*.csv
+
+# Data directory contents (keep folder structure via .gitkeep)
+data/raw/gfs/*
+!data/raw/gfs/.gitkeep
+data/raw/era5/*
+!data/raw/era5/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Large PyTorch / XGBoost Model Checkpoint Binaries (Use LFS or artifact storage)
+*.joblib
+*.pt
+*.pth
+
+# Debug and test logs
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db

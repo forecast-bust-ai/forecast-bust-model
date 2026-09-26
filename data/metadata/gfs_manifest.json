@@ -1,0 +1,97 @@
+[
+  {
+    "dataset": "GFS",
+    "date": "2024-06-01",
+    "cycle": "00",
+    "lead_time_hours": 24,
+    "variable": "APCP",
+    "s3_bucket": "noaa-gfs-bdp-pds",
+    "s3_key": "gfs.20240601/00/atmos/gfs.t00z.pgrb2.0p25.f024",
+    "local_path": "/Users/ommprasadjena/.gemini/antigravity-ide/scratch/forecast-bust-ai/data/raw/gfs/gfs_20240601_t00z_f024_APCP.grib2",
+    "file_size_bytes": 357750,
+    "validation": {
+      "exists": true,
+      "size_bytes": 357750,
+      "valid_header": true,
+      "is_valid": true,
+      "error": null
+    },
+    "downloaded_at": "2026-09-26T06:27:57.339243+00:00"
+  },
+  {
+    "dataset": "GFS",
+    "date": "2024-06-01",
+    "cycle": "00",
+    "lead_time_hours": 48,
+    "variable": "APCP",
+    "s3_bucket": "noaa-gfs-bdp-pds",
+    "s3_key": "gfs.20240601/00/atmos/gfs.t00z.pgrb2.0p25.f048",
+    "local_path": "/Users/ommprasadjena/.gemini/antigravity-ide/scratch/forecast-bust-ai/data/raw/gfs/gfs_20240601_t00z_f048_APCP.grib2",
+    "file_size_bytes": 360379,
+    "validation": {
+      "exists": true,
+      "size_bytes": 360379,
+      "valid_header": true,
+      "is_valid": true,
+      "error": null
+    },
+    "downloaded_at": "2026-09-26T06:27:58.331313+00:00"
+  },
+  {
+    "dataset": "GFS",
+    "date": "2024-06-01",
+    "cycle": "00",
+    "lead_time_hours": 72,
+    "variable": "APCP",
+    "s3_bucket": "noaa-gfs-bdp-pds",
+    "s3_key": "gfs.20240601/00/atmos/gfs.t00z.pgrb2.0p25.f072",
+    "local_path": "/Users/ommprasadjena/.gemini/antigravity-ide/scratch/forecast-bust-ai/data/raw/gfs/gfs_20240601_t00z_f072_APCP.grib2",
+    "file_size_bytes": 358718,
+    "validation": {
+      "exists": true,
+      "size_bytes": 358718,
+      "valid_header": true,
+      "is_valid": true,
+      "error": null
+    },
+    "downloaded_at": "2026-09-26T06:27:59.369106+00:00"
+  },
+  {
+    "dataset": "GFS",
+    "date": "2024-06-01",
+    "cycle": "00",
+    "lead_time_hours": 96,
+    "variable": "APCP",
+    "s3_bucket": "noaa-gfs-bdp-pds",
+    "s3_key": "gfs.20240601/00/atmos/gfs.t00z.pgrb2.0p25.f096",
+    "local_path": "/Users/ommprasadjena/.gemini/antigravity-ide/scratch/forecast-bust-ai/data/raw/gfs/gfs_20240601_t00z_f096_APCP.grib2",
+    "file_size_bytes": 360119,
+    "validation": {
+      "exists": true,
+      "size_bytes": 360119,
+      "valid_header": true,
+      "is_valid": true,
+      "error": null
+    },
+    "downloaded_at": "2026-09-26T06:28:00.483551+00:00"
+  },
+  {
+    "dataset": "GFS",
+    "date": "2024-06-01",
+    "cycle": "00",
+    "lead_time_hours": 120,
+    "variable": "APCP",
+    "s3_bucket": "noaa-gfs-bdp-pds",
+    "s3_key": "gfs.20240601/00/atmos/gfs.t00z.pgrb2.0p25.f120",
+    "local_path": "/Users/ommprasadjena/.gemini/antigravity-ide/scratch/forecast-bust-ai/data/raw/gfs/gfs_20240601_t00z_f120_APCP.grib2",
+    "file_size_bytes": 356977,
+    "validation": {
+      "exists": true,
+      "size_bytes": 356977,
+      "valid_header": true,
+      "is_valid": true,
+      "error": null
+    },
+    "downloaded_at": "2026-09-26T06:28:01.607820+00:00"
+  }
+]

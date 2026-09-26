@@ -1,0 +1,56 @@
+{
+  "dataset_file": "training_dataset_20240601.nc",
+  "error_statistics": {
+    "total_samples": 25921,
+    "overall_metrics": {
+      "mae": 23.373943328857422,
+      "rmse": 27.40745735168457,
+      "mean_bias": 22.26482582092285,
+      "min_error": 0.0014521318953484297,
+      "max_error": 58.334999084472656
+    },
+    "percentile_distribution": {
+      "p50": 22.797849655151367,
+      "p75": 35.485206604003906,
+      "p90": 43.80021286010742,
+      "p95": 46.744972229003906,
+      "p99": 49.292354583740234
+    },
+    "error_by_lead_time": {
+      "Day_1 (24h)": {
+        "lead_time_hours": 24,
+        "mae": 23.373943328857422,
+        "rmse": 27.40745735168457,
+        "p50": 22.797849655151367,
+        "p90": 43.80021286010742,
+        "p95": 46.744972229003906,
+        "p99": 49.292354583740234,
+        "max_error": 58.334999084472656
+      }
+    },
+    "spatial_error_summary": {
+      "min_grid_mae": 0.0014521318953484297,
+      "max_grid_mae": 58.334999084472656,
+      "mean_grid_mae": 23.373943328857422
+    }
+  },
+  "bust_distribution": {
+    "threshold_applied_mm": 43.80021286010742,
+    "threshold_justification": "Percentile-based strategy (90.0th percentile). Threshold set to 43.800 mm absolute error. Isolates top 10.0% most extreme forecast errors.",
+    "class_distribution": {
+      "total_samples": 25921,
+      "num_non_busts": 23328,
+      "num_busts": 2593,
+      "non_bust_percentage": 89.9965279117318,
+      "bust_percentage": 10.003472088268198,
+      "imbalance_ratio": "9.00:1"
+    },
+    "ml_sufficiency_evaluation": {
+      "total_samples": 25921,
+      "is_sufficient_for_ml": true,
+      "reasoning": "Dataset contains 25,921 spatial-temporal grid points with 2,593 bust samples. While sufficient for initial exploratory ML prototyping, expanding to 30-90 historical forecast dates is recommended for robust seasonal generalization across Indian monsoon regimes.",
+      "class_imbalance_identified": true,
+      "imbalance_description": "Class imbalance present: 90.0% Non-Bust vs 10.0% Bust (Imbalance Ratio: 9.00:1). Focal loss, class weighting, or SMOTE/oversampling should be used during ML model training."
+    }
+  }
+}

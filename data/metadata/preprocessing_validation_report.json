@@ -1,0 +1,11 @@
+{
+  "passed_all_checks": true,
+  "checks": {
+    "no_duplicate_timestamps": true,
+    "valid_lat_lon_range": true,
+    "matching_grids": true,
+    "expected_units": true,
+    "no_impossible_values": true
+  },
+  "issues": []
+}

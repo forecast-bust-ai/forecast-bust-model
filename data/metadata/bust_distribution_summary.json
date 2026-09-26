@@ -1,0 +1,19 @@
+{
+  "threshold_applied_mm": 11.052966117858887,
+  "threshold_justification": "Percentile-based strategy (90.0th percentile). Threshold set to 11.053 mm absolute error. Isolates top 10.0% most extreme forecast errors.",
+  "class_distribution": {
+    "total_samples": 129605,
+    "num_non_busts": 116644,
+    "num_busts": 12961,
+    "non_bust_percentage": 89.99961421241464,
+    "bust_percentage": 10.000385787585357,
+    "imbalance_ratio": "9.00:1"
+  },
+  "ml_sufficiency_evaluation": {
+    "total_samples": 129605,
+    "is_sufficient_for_ml": true,
+    "reasoning": "Dataset contains 129,605 spatial-temporal grid points with 12,961 bust samples. While sufficient for initial exploratory ML prototyping, expanding to 30-90 historical forecast dates is recommended for robust seasonal generalization across Indian monsoon regimes.",
+    "class_imbalance_identified": true,
+    "imbalance_description": "Class imbalance present: 90.0% Non-Bust vs 10.0% Bust (Imbalance Ratio: 9.00:1). Focal loss, class weighting, or SMOTE/oversampling should be used during ML model training."
+  }
+}

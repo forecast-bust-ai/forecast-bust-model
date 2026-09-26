@@ -1,0 +1,16 @@
+{
+  "model_architecture": "BustSpatialCNN",
+  "in_channels": 5,
+  "channel_list": [
+    "normalized_forecast_precipitation",
+    "normalized_lead_time_hours",
+    "normalized_latitude_grid",
+    "normalized_longitude_grid",
+    "spatial_precipitation_gradient"
+  ],
+  "training_period": "Lead times 24h, 48h, 72h (Day 1-3)",
+  "validation_period": "Lead time 96h (Day 4)",
+  "testing_period": "Lead time 120h (Day 5)",
+  "pos_weight_applied": 9.133307271305707,
+  "max_precip_norm_factor": 107.25
+}
